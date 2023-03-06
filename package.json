@@ -13,6 +13,8 @@
     "postinstall": "husky install",
     "dev": "vite",
     "build": "tsc && vite build",
+    "preserve": "yarn build",
+    "serve": "serve dist/",
     "preview": "vite preview",
     "lint": "eslint src --ext .js,.jsx,.ts,.tsx",
     "lint:fix": "eslint src --ext .js,.jsx,.ts,.tsx --fix",
