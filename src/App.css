@@ -1,8 +1,18 @@
+body {
+  background-image: linear-gradient(115deg, #f40076, #590fb7);
+}
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-image: linear-gradient(115deg, #590fb7, #000066);
+  border-radius: 24px;
+  min-width: 600px;
+}
+.header {
+  font-family: 'Mr De Haviland', cursive;
+  font-size: 88px;
 }
 
 .logo {
@@ -33,7 +43,21 @@
 }
 
 .card {
-  padding: 2em;
+  margin-bottom: 36px;
+  font-family: 'Faustina', serif;
+}
+
+.card a {
+  padding: 24px;
+  background-color: rgba(255, 255, 255, 0.1);
+  font-size: 22px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.card a svg {
+  margin-right: 18px;
 }
 
 .read-the-docs {
