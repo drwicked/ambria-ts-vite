@@ -11,6 +11,13 @@ body {
 }
 .header {
   font-family: 'Mr De Haviland', cursive;
+  font-size: 76px;
+  padding-top: 40px;
+}
+.header .line-break {
+  margin-top: 8px;
+  margin-bottom: 36px;
+  transform: rotate(180deg);
 }
 
 .logo {
@@ -18,11 +25,8 @@ body {
   padding: 1.5em;
   will-change: filter;
 }
-.logo:hover {
+.header:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
 @keyframes logo-spin {
